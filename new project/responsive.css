@@ -1,0 +1,47 @@
+/*now we make the site responsive for mobile devices only*/
+/*
+Note:
+This website is responsive only for mobile devices
+*/
+
+@media (max-width:768px)
+{
+    .line-1{
+        font-size: 40px;
+       text-align: center;
+       margin-top: 240px;
+    }
+    .line-2{
+        font-size: 40px;
+text-align: center;
+    }
+    .logo{
+        margin-left: 100px;
+    }
+    .sub-and-p{
+        margin-left: 80px;
+        font-size: 16px;
+        display: block;
+    }
+    .small{
+       text-align: center;
+    }
+
+    .icon-play-btn{
+        margin-top: 500px;
+        margin-left: 100px;
+    }
+
+    .btn-txt{
+        margin-top: 520px;
+        margin-left: 170px;
+    }
+    .move-btn{
+        position: absolute;
+    }
+
+    .info{
+        visibility: visible;
+        text-align: center;
+    }
+}
